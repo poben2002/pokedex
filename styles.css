@@ -1,0 +1,42 @@
+/*
+  Name: Benjamin Po
+  Date: July 25, 2022
+  Section: CSE 154 AB
+
+  This is the styles.css page that is used by all pages in my pokemon
+  information website. It provides the basic styling for the index.html page.
+*/
+
+body {
+  background-image: url("pokemonback.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#pokesearch, #pokedex, #intro {
+  text-align: center;
+}
+
+#pokesearch button {
+  height: 20px;
+}
+
+#intro {
+  font-size: 25px;
+  border-width: 10px;
+  border-color: black;
+  padding: 25px;
+}
+
+#pokedex img {
+  width: 200px;
+}
